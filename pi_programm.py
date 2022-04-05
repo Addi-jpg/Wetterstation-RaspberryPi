@@ -4,8 +4,8 @@ import adafruit_dht
 import psycopg2
 import datetime
 
-#Verbinden mit der "pi" Datenbank, gehostet auf dem RaspberryPi (192.168.178.79)
-conn = psycopg2.connect("dbname=pi user=pi password=fachreferat host=192.168.178.79")
+#Verbinden mit der "pi" Datenbank, gehostet auf dem RaspberryPi (x)
+conn = psycopg2.connect("dbname=pi user=pi password=fachreferat host=x")
 
 #Erstellen eines "cursors" mit dem ich sql Befehle ausführen kann
 cursor = conn.cursor()
