@@ -2,7 +2,7 @@ import psycopg2
 import matplotlib.pyplot as plt
 
 #baue verbindung mit dem Datenbankserver auf dem RaspberryPi auf
-conn = psycopg2.connect("dbname=pi user=pi password=fachreferat host=192.168.178.79")
+conn = psycopg2.connect("dbname=pi user=pi password=fachreferat host=x")
 
 #erstellen eines "cursors" mit dem ich sql Befehle ausführen kann
 cursor = conn.cursor()
